@@ -1,0 +1,199 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'modulus' ]
+2 info using npm@2.15.0
+3 info using node@v4.4.2
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'modulus', null ]
+7 verbose cache add spec modulus
+8 silly cache add parsed spec Result {
+8 silly cache add   raw: 'modulus',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'modulus',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: 'latest',
+8 silly cache add   type: 'tag' }
+9 silly addNamed modulus@latest
+10 verbose addNamed "latest" is being treated as a dist-tag for modulus
+11 info addNameTag [ 'modulus', 'latest' ]
+12 silly mapToRegistry name modulus
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry data Result {
+15 silly mapToRegistry   raw: 'modulus',
+15 silly mapToRegistry   scope: null,
+15 silly mapToRegistry   name: 'modulus',
+15 silly mapToRegistry   rawSpec: '',
+15 silly mapToRegistry   spec: 'latest',
+15 silly mapToRegistry   type: 'tag' }
+16 silly mapToRegistry uri https://registry.npmjs.org/modulus
+17 verbose addNameTag registry:https://registry.npmjs.org/modulus not in flight; fetching
+18 verbose request uri https://registry.npmjs.org/modulus
+19 verbose request no auth needed
+20 info attempt registry request try #1 at 11:54:37 PM
+21 verbose request id e060297f89375a62
+22 verbose etag W/"583c5bd3-31275"
+23 verbose lastModified Mon, 28 Nov 2016 16:31:15 GMT
+24 http request GET https://registry.npmjs.org/modulus
+25 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+26 info attempt registry request try #2 at 11:54:47 PM
+27 verbose etag W/"583c5bd3-31275"
+28 verbose lastModified Mon, 28 Nov 2016 16:31:15 GMT
+29 http request GET https://registry.npmjs.org/modulus
+30 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+31 info attempt registry request try #3 at 11:55:47 PM
+32 verbose etag W/"583c5bd3-31275"
+33 verbose lastModified Mon, 28 Nov 2016 16:31:15 GMT
+34 http request GET https://registry.npmjs.org/modulus
+35 http 304 https://registry.npmjs.org/modulus
+36 verbose headers { date: 'Sun, 01 Jan 2017 06:55:48 GMT',
+36 verbose headers   via: '1.1 varnish',
+36 verbose headers   'cache-control': 'max-age=300',
+36 verbose headers   etag: 'W/"583c5bd3-31275"',
+36 verbose headers   age: '0',
+36 verbose headers   connection: 'keep-alive',
+36 verbose headers   'x-served-by': 'cache-lax8634-LAX',
+36 verbose headers   'x-cache': 'MISS',
+36 verbose headers   'x-cache-hits': '0',
+36 verbose headers   'x-timer': 'S1483253748.838755,VS0,VE201',
+36 verbose headers   vary: 'Accept-Encoding' }
+37 silly get cb [ 304,
+37 silly get   { date: 'Sun, 01 Jan 2017 06:55:48 GMT',
+37 silly get     via: '1.1 varnish',
+37 silly get     'cache-control': 'max-age=300',
+37 silly get     etag: 'W/"583c5bd3-31275"',
+37 silly get     age: '0',
+37 silly get     connection: 'keep-alive',
+37 silly get     'x-served-by': 'cache-lax8634-LAX',
+37 silly get     'x-cache': 'MISS',
+37 silly get     'x-cache-hits': '0',
+37 silly get     'x-timer': 'S1483253748.838755,VS0,VE201',
+37 silly get     vary: 'Accept-Encoding' } ]
+38 verbose etag https://registry.npmjs.org/modulus from cache
+39 verbose get saving modulus to /Users/richarddorsey9/.npm/registry.npmjs.org/modulus/.cache.json
+40 verbose correctMkdir /Users/richarddorsey9/.npm correctMkdir not in flight; initializing
+41 silly addNameTag next cb for modulus with tag latest
+42 silly addNamed modulus@6.5.0
+43 verbose addNamed "6.5.0" is a plain semver version for modulus
+44 silly cache afterAdd modulus@6.5.0
+45 verbose afterAdd /Users/richarddorsey9/.npm/modulus/6.5.0/package/package.json not in flight; writing
+46 verbose correctMkdir /Users/richarddorsey9/.npm correctMkdir not in flight; initializing
+47 verbose afterAdd /Users/richarddorsey9/.npm/modulus/6.5.0/package/package.json written
+48 silly install resolved [ { name: 'modulus',
+48 silly install resolved     description: 'The command line interface for deploying applications to the Modulus hosting platform.',
+48 silly install resolved     keywords:
+48 silly install resolved      [ 'cli',
+48 silly install resolved        'modulus',
+48 silly install resolved        'hosting',
+48 silly install resolved        'cloud hosting',
+48 silly install resolved        'paas',
+48 silly install resolved        'platform-as-a-service',
+48 silly install resolved        'deployment',
+48 silly install resolved        'deploy',
+48 silly install resolved        'command line',
+48 silly install resolved        'modulusio' ],
+48 silly install resolved     version: '6.5.0',
+48 silly install resolved     author: { name: 'Modulus', email: 'feedback@modulus.io' },
+48 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object] ],
+48 silly install resolved     repository:
+48 silly install resolved      { type: 'git',
+48 silly install resolved        url: 'git+https://github.com/onmodulus/modulus-cli.git' },
+48 silly install resolved     licenses: [ [Object] ],
+48 silly install resolved     dependencies:
+48 silly install resolved      { async: '2.1.1',
+48 silly install resolved        colors: '1.1.2',
+48 silly install resolved        'commander-plus': '0.0.6',
+48 silly install resolved        'find-file-sync': '0.0.4',
+48 silly install resolved        'fstream-ignore': '1.0.5',
+48 silly install resolved        'node-uuid': '1.4.7',
+48 silly install resolved        opener: '1.4.2',
+48 silly install resolved        progress: '1.1.8',
+48 silly install resolved        prompt: '1.0.0',
+48 silly install resolved        request: '2.75.0',
+48 silly install resolved        semver: '5.3.0',
+48 silly install resolved        split: '1.0.0',
+48 silly install resolved        'text-table': '0.2.0',
+48 silly install resolved        through: '2.3.8',
+48 silly install resolved        underscore: '1.8.3',
+48 silly install resolved        'update-notifier': '1.0.2',
+48 silly install resolved        'zip-stream': '1.1.0' },
+48 silly install resolved     devDependencies: { code: '~1.5.0', lab: '~6.2.0' },
+48 silly install resolved     main: './lib/modulus',
+48 silly install resolved     bin: { modulus: './bin/modulus' },
+48 silly install resolved     preferGlobal: true,
+48 silly install resolved     engines: { node: '>= 0.8.0' },
+48 silly install resolved     scripts: { test: 'lab' },
+48 silly install resolved     gitHead: '385b64733d295a3e974eedb8215b4a05e4e69dd6',
+48 silly install resolved     bugs: { url: 'https://github.com/onmodulus/modulus-cli/issues' },
+48 silly install resolved     homepage: 'https://github.com/onmodulus/modulus-cli#readme',
+48 silly install resolved     _id: 'modulus@6.5.0',
+48 silly install resolved     _shasum: '7657230722ba4ec06f693493dde06312136c0a86',
+48 silly install resolved     _from: 'modulus@latest',
+48 silly install resolved     _npmVersion: '3.10.5',
+48 silly install resolved     _nodeVersion: '4.2.4',
+48 silly install resolved     _npmUser: { name: 'harlanj', email: 'jeremiah.harlan@gmail.com' },
+48 silly install resolved     dist:
+48 silly install resolved      { shasum: '7657230722ba4ec06f693493dde06312136c0a86',
+48 silly install resolved        tarball: 'https://registry.npmjs.org/modulus/-/modulus-6.5.0.tgz' },
+48 silly install resolved     _npmOperationalInternal:
+48 silly install resolved      { host: 'packages-18-east.internal.npmjs.com',
+48 silly install resolved        tmp: 'tmp/modulus-6.5.0.tgz_1478827893241_0.9730747265275568' },
+48 silly install resolved     directories: {},
+48 silly install resolved     _resolved: 'https://registry.npmjs.org/modulus/-/modulus-6.5.0.tgz',
+48 silly install resolved     readme: 'ERROR: No README data found!' } ]
+49 info install modulus@6.5.0 into /usr/local/lib
+50 info installOne modulus@6.5.0
+51 verbose installOne of modulus to /usr/local/lib not in flight; installing
+52 verbose correctMkdir /Users/richarddorsey9/.npm/_locks correctMkdir not in flight; initializing
+53 verbose lock using /Users/richarddorsey9/.npm/_locks/modulus-73bdd4db349978f1.lock for /usr/local/lib/node_modules/modulus
+54 silly install write writing modulus 6.5.0 to /usr/local/lib/node_modules/modulus
+55 verbose unbuild lib/node_modules/modulus
+56 silly gentlyRm /usr/local/lib/node_modules/modulus is being purged from base /usr/local
+57 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/modulus
+58 verbose tar unpack /Users/richarddorsey9/.npm/modulus/6.5.0/package.tgz
+59 verbose tar unpacking to /usr/local/lib/node_modules/modulus
+60 silly gentlyRm /usr/local/lib/node_modules/modulus is being purged
+61 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/modulus
+62 silly gunzTarPerm modes [ '755', '644' ]
+63 error tar.unpack untar error /Users/richarddorsey9/.npm/modulus/6.5.0/package.tgz
+64 verbose unlock done using /Users/richarddorsey9/.npm/_locks/modulus-73bdd4db349978f1.lock for /usr/local/lib/node_modules/modulus
+65 verbose fstream_path /usr/local/lib/node_modules/modulus
+66 verbose fstream_type Directory
+67 verbose fstream_class DirWriter
+68 verbose stack Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/modulus'
+68 verbose stack     at Error (native)
+69 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+69 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+69 verbose fstream_stack FSReqWrap.oncomplete (fs.js:82:15)
+70 verbose cwd /Users/richarddorsey9/MesBot
+71 error Darwin 15.5.0
+72 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "modulus"
+73 error node v4.4.2
+74 error npm  v2.15.0
+75 error path /usr/local/lib/node_modules/modulus
+76 error code EACCES
+77 error errno -13
+78 error syscall mkdir
+79 error Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/modulus'
+79 error     at Error (native)
+79 error  { [Error: EACCES: permission denied, mkdir '/usr/local/lib/node_modules/modulus']
+79 error   errno: -13,
+79 error   code: 'EACCES',
+79 error   syscall: 'mkdir',
+79 error   path: '/usr/local/lib/node_modules/modulus',
+79 error   fstream_type: 'Directory',
+79 error   fstream_path: '/usr/local/lib/node_modules/modulus',
+79 error   fstream_class: 'DirWriter',
+79 error   fstream_stack:
+79 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+79 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+79 error      'FSReqWrap.oncomplete (fs.js:82:15)' ] }
+80 error Please try running this command again as root/Administrator.
+81 verbose exit [ -13, true ]
+82 verbose unbuild lib/node_modules/modulus
+83 silly gentlyRm /usr/local/lib/node_modules/modulus is being purged from base /usr/local
+84 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/modulus
