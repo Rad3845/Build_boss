@@ -1,0 +1,16 @@
+body {
+	background-color: #000000;
+}
+
+img.align-left {
+	/*float: left;*/
+	margin-right: 10px;
+}
+ img.medium {
+ 	width: 350px;
+ 	height: 250px;
+ }
+
+p {
+	color: #F8F8FF;
+}

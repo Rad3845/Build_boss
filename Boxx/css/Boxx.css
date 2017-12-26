@@ -1,0 +1,16 @@
+body {
+	background-image: url(../images/Xbox.jpg);
+}
+h1 {
+	color: #3B3168;
+	text-shadow: 2px 1px #000000;
+}
+@media(max-width: 768px){
+	#showcase iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}

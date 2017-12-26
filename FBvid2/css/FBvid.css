@@ -1,0 +1,22 @@
+body {
+	background-image: url(../images/Sal1.jpg);
+}
+
+ iframe {
+	box-shadow: 3px 3px #000000;
+
+}
+
+h1, p {
+	text-shadow: 2px 2px #FA8072;
+}
+
+@media(max-width: 768px){
+    iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}

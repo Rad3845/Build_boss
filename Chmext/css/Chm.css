@@ -1,0 +1,42 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 22px;
+  background-image: url(../images/Node8.jpg);
+  color:  #323237;
+  letter-spacing: 0.05rem;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width: 40rem;
+  margin: 10vh auto;
+}
+
+.tip {
+  width: 100%;
+}
+
+.tip-number {
+  margin: auto;
+  margin-bottom: 2.5rem;
+  color: #CCCCCC;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-weight: bolder;
+  font-size: 1rem;
+}
+
+.tip-button {
+  background-color: #34B3A0;
+  outline: none;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  margin: auto;
+  font-size: 1rem;
+  margin-top: 2.5rem;
+  cursor: pointer;
+  font-weight: bolder;
+  border: none;
+  color: white;
+}

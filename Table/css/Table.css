@@ -1,0 +1,50 @@
+body {
+    background-image: url('/Table/images/Web%20Document4.jpg');
+}
+
+background-image {
+    height: 450;
+}
+
+#two {
+    color: #000000;
+    text-decoration: none; 
+}
+
+.one {
+    color: #000000;
+    text-decoration: none; 
+}
+
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers td, #customers th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+    color: #000000;
+    text-shadow: 1px 1px 1px White;
+    font-size: 19px;
+
+}
+
+#customers tr:nth-child(even){background-color: #000000;}
+
+#customers tr:hover {background-color: #309511;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-image: url(/Table/images/Web%20Document4.jpg);
+    color: White;
+    text-shadow: 2px 2px 2px #309511;
+    font-size: 30px;
+}
+
+
+

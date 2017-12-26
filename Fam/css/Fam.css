@@ -1,0 +1,16 @@
+body {
+	background-image: url(../images/Node12.png);
+}
+h1 {
+	text-shadow: 2px 2px white;
+	color: #757D80;
+}
+@media(max-width: 768px){
+	#showcase iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}

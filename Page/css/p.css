@@ -1,0 +1,13 @@
+.Prayer_Warrior {
+  font-size: 72px;
+  font-family: "Impact";
+  color: rgb(241, 247, 247);
+  line-height: 1.2;
+  -moz-transform: matrix( 3.34225171040447,0,0,0.95265218299157,0,0);
+  -webkit-transform: matrix( 3.34225171040447,0,0,0.95265218299157,0,0);
+  -ms-transform: matrix( 3.34225171040447,0,0,0.95265218299157,0,0);
+  position: absolute;
+  left: 727.637px;
+  top: 803.825px;
+  z-index: 5;
+}

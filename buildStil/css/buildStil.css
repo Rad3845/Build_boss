@@ -1,0 +1,25 @@
+body {
+	background-image: url(../images/sublime.jpg);
+
+}
+#showcase {
+	justify-content: center;
+}
+.barlink {
+	padding: 0px 30px;
+	font-family: arial;
+	color: #cfcfcf;
+	text-decoration: none;
+	font-weight: bold;
+    font-size: 16px;
+	margin: 1px; 
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.barlink:visited {
+	color: #cfcfcf;
+}
+.barlink:hover {
+	color: #ffffff;
+}

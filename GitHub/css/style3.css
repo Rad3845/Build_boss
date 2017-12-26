@@ -1,0 +1,161 @@
+body { 
+   background-color: #000000;
+	
+}
+
+
+h1 {
+	color: #32CD32;
+	text-shadow: 1px 1px #FFA07A;
+	text-align: center;
+	font-family: "refrigerator-deluxe",sans-serif;
+	border-style: double;
+
+}
+a:hover {
+	background-color: red;
+}
+
+p {
+	font-family:'Lobster', cursive;
+	color: #000000;
+	text-align: center;
+	text-indent: 1.5em;
+	text-shadow: 1px 1px #46AD28;
+	font-size: 2em;
+}
+ul {
+    list-style-type: cjk-heavenly-stem;
+    margin-left: 30px;
+    padding: 0px;
+    border: 1px solid #32CD32;
+   
+}
+li a {
+	padding: 8px 8px 8px 1px;
+}
+li {
+    text-align: center;
+    border-bottom: 1px solid #FFA07A;
+}
+/* Link Colors */
+
+.black {
+	color: #E6E6FA;
+	text-shadow: 1px 1px #1E90FF;
+}
+#zero {
+	color: #32CD32;
+	text-shadow: 1px 1px #1E90FF;
+}
+#lime {
+	color: #32CD32;
+	text-shadow: 2px 2px #000000;
+}
+#purple {
+	color: #800080;
+	text-shadow: 2px 2px #000000;
+}
+#orange {
+	color: #FFA500;
+	text-shadow: 2px 2px #000000;
+}
+#red {
+	color: #FF0000;
+	text-shadow: 2px 2px #000000;
+}
+#one {
+	color: #A1C426;
+	text-shadow: 2px 2px #000000;
+}
+#two {
+	color: #FF69B4;
+	text-shadow: 2px 2px #000000;
+}
+#three {
+	color: #E6E6FA;
+	text-shadow: 2px 2px #000000;
+}
+#four {
+	color: #008000;
+	text-shadow: 2px 2px #000000;
+}
+#five {
+	color: #800080;
+	text-shadow: 2px 2px #000000;
+}
+#six {
+	color: #FFFF00;
+	text-shadow: 2px 2px #000000;
+}
+#seven {
+	color: #BC8F8F;
+	text-shadow: 2px 2px #000000;
+}
+#eight {
+	color: #C0C0C0;
+	text-shadow: 2px 2px #000000;
+}
+#nine {
+	color: #FFA500;
+	text-shadow: 2px 2px #000000;
+}
+#ten {
+	color: #48D1CC;
+	text-shadow: 2px 2px #000000;
+}
+#eleven {
+	color: #20B2AA;
+	text-shadow: 2px 2px #000000;
+}
+#off {
+	color: #E6E6FA;
+	text-shadow: 2px 2px #000000;
+}
+#on {
+	color: #A1C426;
+	text-shadow: 2px 2px #000000; 
+}
+#easy {
+	color: #008000;
+	text-shadow: 2px 2px #000000;
+}
+#sub {
+	color: #E6E6FA;
+	text-shadow: 2px 2px #000000;
+}
+#rub {
+	color: #008000;
+	text-shadow: 2px 2px #000000;
+}
+#hub {
+	color: #20B2AA;
+	text-shadow: 2px 2px #000000;
+}
+#club {
+	color: #008000;
+	text-shadow: 2px 2px #000000;
+}
+/* End Link Colors */
+
+/* ul postion */
+#small {
+	font-size: 19px;
+	font-family: Impact;
+
+}
+#pull {
+	position: relative;
+}
+
+#move {
+	position: relative;
+
+}
+#black {
+	color: #000;
+}
+/* ul postion end */
+
+
+

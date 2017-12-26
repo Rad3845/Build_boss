@@ -1,0 +1,17 @@
+body {
+	background-image: url(../images/EricW.jpg);
+}
+h1 {
+	color: #DEB887;
+	text-shadow: 2px 2px #99082C;
+}
+
+@media(max-width: 768px){
+	#showcase iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}

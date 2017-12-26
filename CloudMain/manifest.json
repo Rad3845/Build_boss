@@ -1,0 +1,13 @@
+{
+  "name": "Chmext",
+  "manifest_version": 2,
+  "description": "Astro's Iframe/Browser Window",
+  "version": "0.0.0.1",
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "Chm.html"
+  },
+  "icons": {
+    "128": "/images/Rock.png"
+  }
+}

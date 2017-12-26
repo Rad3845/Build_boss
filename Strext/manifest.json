@@ -1,0 +1,13 @@
+{
+  "name": "Frasier",
+  "manifest_version": 2,
+  "description": "Every Frasier theme & animation on new tabs",
+  "version": "0.0.0.1",
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "Str.html"
+  },
+  "icons": {
+    "128": "/images/frasier1.png"
+  }
+}

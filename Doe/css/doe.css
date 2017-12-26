@@ -1,0 +1,18 @@
+body {
+	background-image: url(../images/Smoke.jpg);
+}
+h1 {
+	text-shadow: 2px 2px #838580;
+	color: #000000;
+	border: solid 3px #0000FF;
+
+}
+@media(max-width: 768px){
+	#showcase iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}

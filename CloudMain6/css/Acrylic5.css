@@ -1,0 +1,28 @@
+body{
+  background-image: url(../images/TheOne.png);
+  border: blue 3px solid;
+}
+
+h1 {
+	color: #000000;
+	font-size: 40px;
+	text-shadow: 2px 1px blue;
+}
+iframe {
+	border: #000000 4px solid;
+
+}
+.footer {
+	color: #000000;
+	text-shadow: 1px 1px blue;
+}
+
+@media(max-width: 768px){
+	#showcase iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}

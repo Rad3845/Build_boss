@@ -1,0 +1,13 @@
+{
+  "name": "JaNina",
+  "manifest_version": 2,
+  "description": "JaNina's JavaScript tips & pic's in Chrome",
+  "version": "0.0.0.1",
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "nina.html"
+  },
+  "icons": {
+    "128": "/images/Nina.png"
+  }
+}

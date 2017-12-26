@@ -1,0 +1,13 @@
+{
+  "name": "Joint Trench",
+  "manifest_version": 2,
+  "description": "newtabs show my excellent Joint Trench",
+  "version": "0.0.0.1",
+  "permissions": ["management"],
+  "chrome_url_overrides": {
+    "newtab": "Snow.html"
+  },
+  "icons": {
+    "128": "images/JointT.png"
+  }
+}

@@ -1,0 +1,10 @@
+body {
+	background-color: #008000; 
+
+}
+
+h1 {
+	color: #F8F8FF;
+   text-align: center;
+    margin: var(--about-space) 0;
+}

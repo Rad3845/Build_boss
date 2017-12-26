@@ -1,0 +1,31 @@
+body {
+	background-color: #3B3168;
+	font: 29px/1.5 Arial, Helvetica,sans-serif;
+	text-shadow: 1px 1px #000000;
+}
+.container {
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+header {
+	background-image: url(../images/SSi.jpg);
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+
+}
+h1 {  
+	color: #F6D866;
+}
+h2 {
+	color: #EC905E;
+}
+h3 {
+	color: #66051D;
+
+}
+h4 {
+	color: #85AC70
+}

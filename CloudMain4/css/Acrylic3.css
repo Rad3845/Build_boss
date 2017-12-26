@@ -1,0 +1,22 @@
+body {
+	background-image: url(../images/Screen%20Shot%202017-12-24%20at%203.40.30%20PM.png);
+}
+
+h1 {
+	color:  #87CEEB;
+	font-size: 40px;
+	text-shadow: 2px 1px #B23959;
+}
+.footer {
+	color: #F6D866;
+}
+
+@media(max-width: 768px){
+	#showcase iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}

@@ -1,0 +1,22 @@
+body {
+	background-image: url(../images/AstroFace1.jpg);
+}
+
+h1 {
+	color:  #323237;
+	font-size: 40px;
+	text-shadow: 2px 1px #B23959;
+}
+.footer {
+	color: #F6D866;
+}
+
+@media(max-width: 768px){
+	#showcase iframe,
+	h1, p {
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+
+}

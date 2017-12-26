@@ -1,0 +1,22 @@
+body{
+	background-color: #000000;
+}
+#my_centered_buttons { 
+	border: solid 2px #B0E0E6;
+	top: 50%;
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+	display: flex; 
+	justify-content: center;
+	-webkit-border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 5px 1px #FF7A00;
+ }
+
+a {
+	color: #FF7A00;
+	font-size: 90px;
+	text-shadow: 1px 1px #B0E0E6;
+	text-decoration: none;
+
+}
